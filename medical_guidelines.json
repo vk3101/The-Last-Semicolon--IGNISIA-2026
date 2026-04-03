@@ -1,0 +1,91 @@
+[
+  {
+    "id": "ssc-2021-sepsis",
+    "title": "Surviving Sepsis Campaign: International Guidelines for Management of Sepsis and Septic Shock 2021",
+    "organization": "Society of Critical Care Medicine",
+    "year": 2021,
+    "url": "https://www.sccm.org/clinical-resources/guidelines/guidelines/surviving-sepsis-guidelines-2021",
+    "topics": [
+      "sepsis",
+      "septic_shock",
+      "lactate",
+      "hypotension",
+      "map",
+      "antibiotics",
+      "icu_admission"
+    ],
+    "keywords": [
+      "infection",
+      "fever",
+      "tachycardia",
+      "tachypnea",
+      "hypoperfusion",
+      "lactate",
+      "mean arterial pressure",
+      "vasopressor",
+      "shock"
+    ],
+    "summary": "Adults with suspected sepsis should be assessed urgently, serum lactate should be measured, resuscitation should begin immediately, and an initial mean arterial pressure target of 65 mmHg is suggested for septic shock.",
+    "support_points": [
+      "High-likelihood sepsis or septic shock should trigger immediate treatment and early antimicrobial therapy.",
+      "Elevated lactate should be interpreted in context and trended during resuscitation.",
+      "For septic shock on vasopressors, an initial MAP target of 65 mmHg is recommended."
+    ]
+  },
+  {
+    "id": "kdigo-2012-aki",
+    "title": "KDIGO Clinical Practice Guideline for Acute Kidney Injury",
+    "organization": "Kidney Disease: Improving Global Outcomes",
+    "year": 2012,
+    "url": "https://kdigo.org/wp-content/uploads/2017/04/KDIGO-AKI-GL-for-JSN_wm.pdf",
+    "topics": [
+      "acute_kidney_injury",
+      "creatinine",
+      "renal_failure",
+      "oliguria",
+      "organ_failure"
+    ],
+    "keywords": [
+      "creatinine rise",
+      "renal dysfunction",
+      "kidney injury",
+      "urine output",
+      "oliguria",
+      "baseline creatinine"
+    ],
+    "summary": "Acute kidney injury is supported by a creatinine increase of at least 0.3 mg/dL within 48 hours, a rise to 1.5 times baseline within 7 days, or reduced urine output.",
+    "support_points": [
+      "Creatinine trends must be interpreted against baseline rather than a single isolated value.",
+      "Urine-output decline can support evolving AKI even before severe creatinine change is confirmed.",
+      "Unexpected creatinine jumps should be verified against clinical context before acting on them."
+    ]
+  },
+  {
+    "id": "ssc-2021-icu-screening",
+    "title": "Surviving Sepsis Campaign Guidelines 2021: Screening and ICU Escalation",
+    "organization": "Society of Critical Care Medicine",
+    "year": 2021,
+    "url": "https://www.sccm.org/clinical-resources/guidelines/guidelines/surviving-sepsis-guidelines-2021",
+    "topics": [
+      "screening",
+      "icu_admission",
+      "sepsis",
+      "trend_monitoring",
+      "reassessment"
+    ],
+    "keywords": [
+      "screening",
+      "trend",
+      "deterioration",
+      "reassessment",
+      "icu",
+      "alternative diagnosis"
+    ],
+    "summary": "Hospitals should use structured sepsis screening and continuously reevaluate alternative diagnoses; patients needing ICU care should be escalated rapidly.",
+    "support_points": [
+      "Screening programs and repeated reassessment reduce missed deterioration signals.",
+      "Alternative diagnoses should still be considered while sepsis is being evaluated.",
+      "Patients who need ICU-level care should be escalated promptly."
+    ]
+  }
+]
