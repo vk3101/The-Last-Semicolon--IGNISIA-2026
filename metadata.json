@@ -1,0 +1,102 @@
+{
+  "created_at": "2026-04-03T08:27:38.821869+00:00",
+  "dataset_path": "/Users/adityakumar/ICU-Agent-Pro/backend/data/icu_timeseries_10000.csv",
+  "row_count": 10000,
+  "patient_count": 100,
+  "feature_names": [
+    "HR",
+    "BP_sys",
+    "BP_dia",
+    "Temp",
+    "SpO2",
+    "Resp"
+  ],
+  "sequence_length": 10,
+  "threshold_warning": 0.35,
+  "threshold_critical": 0.65,
+  "normal_ranges": {
+    "HR": {
+      "ideal": 80.0,
+      "normal_low": 60.0,
+      "normal_high": 100.0,
+      "warning_low": 50.0,
+      "warning_high": 120.0,
+      "critical_low": 40.0,
+      "critical_high": 135.0
+    },
+    "BP_sys": {
+      "ideal": 115.0,
+      "normal_low": 90.0,
+      "normal_high": 130.0,
+      "warning_low": 85.0,
+      "warning_high": 160.0,
+      "critical_low": 75.0,
+      "critical_high": 180.0
+    },
+    "BP_dia": {
+      "ideal": 75.0,
+      "normal_low": 60.0,
+      "normal_high": 85.0,
+      "warning_low": 50.0,
+      "warning_high": 100.0,
+      "critical_low": 40.0,
+      "critical_high": 110.0
+    },
+    "Temp": {
+      "ideal": 36.9,
+      "normal_low": 36.1,
+      "normal_high": 37.8,
+      "warning_low": 35.5,
+      "warning_high": 38.5,
+      "critical_low": 35.0,
+      "critical_high": 39.0
+    },
+    "SpO2": {
+      "ideal": 98.0,
+      "normal_low": 95.0,
+      "normal_high": 100.0,
+      "warning_low": 92.0,
+      "warning_high": 100.0,
+      "critical_low": 88.0,
+      "critical_high": 100.0
+    },
+    "Resp": {
+      "ideal": 16.0,
+      "normal_low": 12.0,
+      "normal_high": 20.0,
+      "warning_low": 10.0,
+      "warning_high": 24.0,
+      "critical_low": 8.0,
+      "critical_high": 30.0
+    }
+  },
+  "training_summary": {
+    "train_rows": 8000,
+    "test_rows": 2000,
+    "train_positive_rate": 0.067125,
+    "test_positive_rate": 0.095,
+    "tensorflow_available": true,
+    "tabular_model": "hist_gradient_boosting",
+    "xgb": {
+      "accuracy": 0.9965,
+      "precision": 0.9740932642487047,
+      "recall": 0.9894736842105263,
+      "f1": 0.9817232375979112,
+      "roc_auc": 0.9999243966269264
+    },
+    "isolation_forest": {
+      "accuracy": 0.929,
+      "precision": 0.6008403361344538,
+      "recall": 0.7526315789473684,
+      "f1": 0.6682242990654206,
+      "roc_auc": 0.9501104972375689
+    },
+    "lstm": {
+      "accuracy": 0.9366666666666666,
+      "precision": 0.6397058823529411,
+      "recall": 0.9157894736842105,
+      "f1": 0.7532467532467533,
+      "roc_auc": 0.9772343903236352
+    }
+  }
+}
