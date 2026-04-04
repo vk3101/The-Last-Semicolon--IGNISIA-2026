@@ -1,0 +1,41 @@
+{
+  "patient_id": "ICU-501",
+  "doctor": {
+    "name": "Dr. Meera",
+    "specialty": "Critical Care"
+  },
+  "patient": {
+    "name": "Anita Rao",
+    "age": 67,
+    "sex": "Female",
+    "bed_label": "Bed 05",
+    "diagnosis": "Post-operative sepsis surveillance"
+  },
+  "vitals": [
+    {
+      "timestamp": "2026-04-03T08:00:00Z",
+      "HR": 118,
+      "BP_sys": 92,
+      "BP_dia": 58,
+      "Temp": 38.4,
+      "SpO2": 92,
+      "Resp": 27,
+      "GCS": 14
+    }
+  ],
+  "documents": [
+    {
+      "document_type": "prescription",
+      "title": "Morning ICU prescription",
+      "timestamp": "2026-04-03T08:15:00Z",
+      "content": "Meropenem started. Patient febrile overnight with worsening abdominal tenderness, tachypnea, and concern for infection source. BP 92/58, HR 118, Temp 38.4 C, SpO2 92%, RR 27."
+    },
+    {
+      "document_type": "lab_report",
+      "title": "Morning lab panel",
+      "timestamp": "2026-04-03T08:30:00Z",
+      "content": "WBC 16.8 K/uL\nLactate 3.8 mmol/L\nCreatinine 1.9 mg/dL"
+    }
+  ],
+  "analyze_now": true
+}

@@ -1,0 +1,122 @@
+{
+  "patient_id": "ICU-42",
+  "demographics": {
+    "age": 63,
+    "sex": "Female"
+  },
+  "notes": [
+    {
+      "timestamp": "2026-04-01T07:30:00Z",
+      "author": "Dr. Nair",
+      "specialty": "Surgery",
+      "text": "Post-operative patient became febrile overnight with increasing abdominal tenderness. Source infection is being considered."
+    },
+    {
+      "timestamp": "2026-04-02T13:05:00Z",
+      "author": "Dr. Thomas",
+      "specialty": "ICU",
+      "text": "More tachycardic and intermittently confused this afternoon. Urine output has fallen and lactate trend is concerning for evolving sepsis."
+    },
+    {
+      "timestamp": "2026-04-03T07:10:00Z",
+      "author": "Nurse Priya",
+      "specialty": "Nursing",
+      "text": "SpO2 drifting down over the morning, patient tachypneic and drowsy. Blood cultures sent and redraw requested after unexpected creatinine result."
+    }
+  ],
+  "vitals": [
+    {
+      "timestamp": "2026-04-01T08:00:00Z",
+      "HR": 96,
+      "BP_sys": 110,
+      "BP_dia": 72,
+      "Temp": 37.4,
+      "SpO2": 96,
+      "Resp": 20,
+      "GCS": 15
+    },
+    {
+      "timestamp": "2026-04-02T08:00:00Z",
+      "HR": 108,
+      "BP_sys": 102,
+      "BP_dia": 66,
+      "Temp": 38.1,
+      "SpO2": 94,
+      "Resp": 24,
+      "GCS": 14
+    },
+    {
+      "timestamp": "2026-04-03T08:00:00Z",
+      "HR": 124,
+      "BP_sys": 88,
+      "BP_dia": 54,
+      "Temp": 38.8,
+      "SpO2": 91,
+      "Resp": 29,
+      "GCS": 13
+    }
+  ],
+  "labs": [
+    {
+      "timestamp": "2026-04-01T08:00:00Z",
+      "name": "WBC",
+      "value": 11.6,
+      "unit": "K/uL"
+    },
+    {
+      "timestamp": "2026-04-02T08:00:00Z",
+      "name": "WBC",
+      "value": 13.9,
+      "unit": "K/uL"
+    },
+    {
+      "timestamp": "2026-04-03T08:00:00Z",
+      "name": "WBC",
+      "value": 16.8,
+      "unit": "K/uL"
+    },
+    {
+      "timestamp": "2026-04-01T08:00:00Z",
+      "name": "Lactate",
+      "value": 1.8,
+      "unit": "mmol/L"
+    },
+    {
+      "timestamp": "2026-04-02T08:00:00Z",
+      "name": "Lactate",
+      "value": 2.6,
+      "unit": "mmol/L"
+    },
+    {
+      "timestamp": "2026-04-03T08:00:00Z",
+      "name": "Lactate",
+      "value": 3.8,
+      "unit": "mmol/L"
+    },
+    {
+      "timestamp": "2026-04-01T08:00:00Z",
+      "name": "Creatinine",
+      "value": 1.0,
+      "unit": "mg/dL"
+    },
+    {
+      "timestamp": "2026-04-02T08:00:00Z",
+      "name": "Creatinine",
+      "value": 1.1,
+      "unit": "mg/dL"
+    },
+    {
+      "timestamp": "2026-04-02T20:00:00Z",
+      "name": "Creatinine",
+      "value": 1.0,
+      "unit": "mg/dL"
+    },
+    {
+      "timestamp": "2026-04-03T08:00:00Z",
+      "name": "Creatinine",
+      "value": 4.9,
+      "unit": "mg/dL",
+      "confirmed_redraw": false
+    }
+  ]
+}

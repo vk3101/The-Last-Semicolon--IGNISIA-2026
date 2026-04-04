@@ -1,0 +1,12 @@
+{
+  "patient_id": "ICU-17",
+  "timestamp": "2026-04-03T10:15:00Z",
+  "features": {
+    "HR": 122,
+    "BP_sys": 88,
+    "BP_dia": 55,
+    "Temp": 38.6,
+    "SpO2": 90,
+    "Resp": 28
+  }
+}
